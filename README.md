@@ -81,13 +81,6 @@ For major changes, open an issue first.
 
 ---
 
-## Contributors
-
-- Sergei Rusetskii
-- Codex (OpenAI)
-
----
-
 ## License
 
 PlanCrossCheck Community License - See [LICENSE](LICENSE)
