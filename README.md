@@ -63,8 +63,7 @@ See clinic-specific folders for detailed requirements.
 PlanCrossCheck/
 ├── ClinicE/          # Eclipse 18.0 variant (Edge, Halcyon)
 ├── ClinicH/          # Eclipse 16.1 variant (TrueBeam STX)
-├── backup/           # Experimental validator backups
-└── Documentation/    # ESAPI reference materials
+└── backup/           # Experimental validator backups
 ```
 
 **Independence:** Each clinic is a completely separate project. No shared code between variants.
@@ -79,6 +78,13 @@ Contributions welcome! Please:
 3. Submit a pull request with clear description
 
 For major changes, open an issue first.
+
+---
+
+## Contributors
+
+- Sergei Rusetskii
+- Codex (OpenAI)
 
 ---
 
