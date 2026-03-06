@@ -26,14 +26,6 @@ Eclipse Scripting API (ESAPI) plugin that performs automated validation checks o
 - **Validators:** 18 (modular architecture)
 - **Status:** ✅ Production
 
-**Build:**
-```bash
-cd ClinicE
-msbuild PlanCrossCheck.csproj /p:Configuration=Release /p:Platform=x64
-```
-
-**Output:** `ClinicE/Release/TEST_Cross_Check.esapi.dll`
-
 ---
 
 ### ClinicH - [ClinicH/](ClinicH/)
@@ -43,14 +35,6 @@ msbuild PlanCrossCheck.csproj /p:Configuration=Release /p:Platform=x64
 - **Version:** v1.0.0.1
 - **Validators:** Monolithic architecture
 - **Status:** ✅ Clinical
-
-**Build:**
-```bash
-cd ClinicH
-msbuild PlanCrossCheck.csproj /p:Configuration=Release /p:Platform=x64
-```
-
-**Output:** `ClinicH/Release/PlanCrossCheck.dll`
 
 ---
 
@@ -68,19 +52,8 @@ msbuild PlanCrossCheck.csproj /p:Configuration=Release /p:Platform=x64
 
 - Windows x64
 - Varian Eclipse with ESAPI access
-- MSBuild (Visual Studio Build Tools)
 
 See clinic-specific folders for detailed requirements.
-
----
-
-## Installation
-
-1. **Build** the appropriate clinic variant (see above)
-2. **Copy DLL** to Eclipse plugin directory:
-   - Typical: `C:\Program Files (x86)\Varian\RTM\[Version]\ExternalBeam\PlugIns\`
-3. **Restart Eclipse**
-4. **Access** via Scripts menu
 
 ---
 
@@ -118,13 +91,3 @@ Free for internal organizational and non-profit use. Commercial use requires sep
 Copyright (c) 2025 Sergei Rusetskii
 
 ---
-
-## Support
-
-- **Email:** rusetskiy.s@gmail.com
-- **GitHub Issues:** Use the issue tracker
-- **Security:** [GitHub Security Advisories](https://github.com/SergeiRusetskii/PlanCrossCheck/security/advisories/new)
-
----
-
-*Built with Varian Eclipse Scripting API (ESAPI) and .NET Framework*

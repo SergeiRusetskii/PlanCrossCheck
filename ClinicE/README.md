@@ -1,4 +1,4 @@
-# ClinicE - TEST_Cross-check v1.8.3
+# ClinicE - Cross-check v1.8.3
 
 Quality assurance validation tool for Varian Edge and Halcyon radiation therapy treatment planning.
 
@@ -508,35 +508,11 @@ Uses `PlanUtilities` class to identify machine type from `TreatmentUnit.Id` in b
 
 ---
 
-## Build Instructions
-
-```bash
-cd ClinicE
-msbuild PlanCrossCheck.csproj /p:Configuration=Release /p:Platform=x64
-```
-
-**Output:** `ClinicE/Release/TEST_Cross_Check.esapi.dll`
-
-**Note:** Assembly name includes `TEST_` prefix per institutional deployment protocol.
-
----
-
-## Installation
-
-1. Build project using above command
-2. Copy `TEST_Cross_Check.esapi.dll` to Eclipse plugin directory:
-   - Default: `C:\Program Files (x86)\Varian\RTM\18.0\ExternalBeam\PlugIns\`
-3. Restart Eclipse
-4. Access via Scripts menu → TEST_Cross_Check
-
----
-
 ## Requirements
 
 - Windows x64
 - Varian Eclipse 18.0 with ESAPI
 - .NET Framework 4.8
-- MSBuild tools (Visual Studio 2019+)
 
 ---
 
@@ -547,7 +523,3 @@ PlanCrossCheck Community License - See [LICENSE](../LICENSE)
 Free for internal organizational and non-profit use. Commercial use requires separate license.
 
 Copyright (c) 2025 Sergei Rusetskii
-
----
-
-*Built with Varian Eclipse Scripting API (ESAPI) 18.0 and .NET Framework 4.8*

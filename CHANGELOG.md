@@ -21,7 +21,6 @@ All notable changes to PlanCrossCheck will be documented in this file.
 
 ### Technical Details
 - CollisionValidator: 9 structure prefixes (was 11)
-- Output file: CrossCheck.esapi.dll (production name)
 
 ## ClinicH v1.3.2.0 - 2026-01-25
 
@@ -70,12 +69,6 @@ All notable changes to PlanCrossCheck will be documented in this file.
   - Root cause: Assembly name must end with `.esapi` for Eclipse recognition
   - Solution: Changed assembly name to `CrossCheck.esapi`
 
-### Deployment Notes
-- Build produces: `CrossCheck.esapi.dll`
-- Deploy to: `C:\Users\Public\Documents\Varian\Vision\16.1\ExternalBeam\Scripts\`
-- Script will appear in Eclipse as "CrossCheck" in Script menu
-- Window title will show "Cross-check v1.3.0"
-
 ## ClinicH v1.1.0.0 - 2026-01-25
 
 ### Added
@@ -101,9 +94,6 @@ All notable changes to PlanCrossCheck will be documented in this file.
   - Matches ClinicE modular architecture for consistency
 - **Version**: Bumped from v1.0.0.1 to v1.1.0.0
 - **Project File**: Updated PlanCrossCheck.csproj with 19 new file references
-
-### Deprecated
-- Monolithic `Validators.cs` file (backed up as `Validators.cs.backup`)
 
 ### Technical Details
 - Total validators: 14 (11 original + 3 new)

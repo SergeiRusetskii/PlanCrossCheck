@@ -282,33 +282,11 @@ RootValidator
 
 ---
 
-## Build Instructions
-
-```bash
-cd ClinicH
-msbuild PlanCrossCheck.csproj /p:Configuration=Release /p:Platform=x64
-```
-
-**Output:** `ClinicH/Release/PlanCrossCheck.dll`
-
----
-
-## Installation
-
-1. Build project using above command
-2. Copy `PlanCrossCheck.dll` to Eclipse plugin directory:
-   - Default: `C:\Program Files (x86)\Varian\RTM\16.1\ExternalBeam\PlugIns\`
-3. Restart Eclipse
-4. Access via Scripts menu → PlanCrossCheck
-
----
-
 ## Requirements
 
 - Windows x64
 - Varian Eclipse 16.1 with ESAPI
 - .NET Framework 4.6.1
-- MSBuild tools (Visual Studio 2017+)
 
 ---
 
@@ -319,7 +297,3 @@ PlanCrossCheck Community License - See [LICENSE](../LICENSE)
 Free for internal organizational and non-profit use. Commercial use requires separate license.
 
 Copyright (c) 2025 Sergei Rusetskii
-
----
-
-*Built with Varian Eclipse Scripting API (ESAPI) 16.1 and .NET Framework 4.6.1*
